@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
 
-CORS(app, resources={r"/*": {"origins": ["http://localhost:5173"], "allow_headers": "*"}})
+CORS(app, resources={r"/*": {"origins": ["https://issuetracker-kwar5j1bs-adarsh-pandeys-projects-b829a453.vercel.app"], "allow_headers": "*"}})
 
 class Tasks(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -105,4 +105,4 @@ def create_tables():
     db.create_all()  # Creates the database tables based on your models
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5172)
+    app.run(debug=True, port=8080)

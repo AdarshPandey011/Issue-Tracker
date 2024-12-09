@@ -1,4 +1,6 @@
-#!/Users/adarshpandey/Downloads/Task/Backend/venv/bin/python
+#!/bin/sh
+'''exec' "/Users/adarshpandey/Downloads/Issue Tracker/Backend/venv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
