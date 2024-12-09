@@ -1,0 +1,45 @@
+
+
+
+
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.salesLog {
+
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  padding: 2vh;
+}
+
+
+.home{
+  height: 100vh;
+}
+
+.left{
+  width: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  height: 4vh;
+  width: 15vh;
+}
