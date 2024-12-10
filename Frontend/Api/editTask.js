@@ -2,7 +2,7 @@ export const editTask = async (task) => {
   console.log('Editing task:', task);
 
   try {
-    const response = await fetch('http://localhost:5172/edit', {
+    const response = await fetch('https://issuetracker-igbb7eeot-adarsh-pandeys-projects-b829a453.vercel.app/?vercelToolbarCode=8TqFpDxewpNMSR3/edit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

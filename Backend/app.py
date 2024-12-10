@@ -105,4 +105,4 @@ def create_tables():
     db.create_all()  # Creates the database tables based on your models
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.r un(debug=True, port=8080)
